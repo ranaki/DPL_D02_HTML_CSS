@@ -52,36 +52,43 @@ td {
 #purple-box,
 #bunny-box {
     display: inline-block;
-    margin: 10px auto;
+    /*margin: 10px auto;*/
+    height: 200px;
+    width: 200px;
 }
 #green-circle {
-    height: 250px;
-    width: 250px;
+    /*height: 250px;
+    width: 250px;*/
     border-radius: 50%;
     background-color: green;
     border: 3px solid black;
 }
 #purple-box {
-    height: 250px;
-    width: 250px;
     background-color: purple;
     border: 3px solid black;
+    float: left;
+    margin-left: 25%;
 }
 #bunny-box {
-    height: 250px;
-    width: 250px;
     background-color: antiquewhite;
     border: 3px solid black;
+    background-image: url("bunny.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    float: right;
+    /*background-attachment: fixed;*/
 }
 .div-art {
-    margin: 5px auto;
-    width: 90%;
+    margin: 10px auto;
+    width: 80%;
     border: 1px solid black;
     background-color: red;
 }
-.sec-spacer {
+.div-spacer {
     display: inline-block;
     width: 33%;
-    margin: auto;
-    justify-content: center;
+    /*margin: 10px auto;*/
+    border: 1px solid black;
+    background-color: orange;
 }
