@@ -35,3 +35,53 @@ td {
     border: 1px solid black;
     
 }
+.div-things-facts {
+    margin: 20px auto;
+    width: 80%;
+    /*border: 1px solid black;*/
+}
+.div-things-facts p {
+    text-align: center; 
+}
+.sec-things-facts {
+    /*border: 1px solid blue;*/
+    width: 49%;
+}
+
+#green-circle,
+#purple-box,
+#bunny-box {
+    display: inline-block;
+    margin: 10px auto;
+}
+#green-circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: green;
+    border: 3px solid black;
+}
+#purple-box {
+    height: 250px;
+    width: 250px;
+    background-color: purple;
+    border: 3px solid black;
+}
+#bunny-box {
+    height: 250px;
+    width: 250px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+}
+.div-art {
+    margin: 5px auto;
+    width: 90%;
+    border: 1px solid black;
+    background-color: red;
+}
+.sec-spacer {
+    display: inline-block;
+    width: 33%;
+    margin: auto;
+    justify-content: center;
+}
