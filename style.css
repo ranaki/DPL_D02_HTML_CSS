@@ -1,0 +1,37 @@
+
+.main-body {
+    color: black;
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+}
+.div-tri-head {
+    margin: 5px auto;
+    width: 95%;
+    text-align: center;
+}
+.sec-tri-head {
+    border: 1px solid blue;
+    width: 33%;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #e8f2f9;
+    padding: 20px 0 0 0;
+}
+table {
+    width: 80%;
+    margin: 40px auto;
+    background-color: lightgrey;
+    text-align: center;
+}
+th,
+td {
+    border: 1px solid black;
+}
+.rating-table {
+    border: 1px solid black;
+    
+}
